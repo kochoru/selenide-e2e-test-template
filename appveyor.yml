@@ -6,4 +6,4 @@ environment:
 install:
   - ps: choco install maven
 test_script:
-- sh: mvn test
+  - ps: mvn test
