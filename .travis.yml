@@ -1,0 +1,11 @@
+language: java
+
+sudo: false # faster builds
+
+dist: trusty
+
+addons:
+  chrome: stable
+
+scripts:
+ - mvn install test
