@@ -11,6 +11,12 @@ import com.codeborne.selenide.WebDriverRunner;
 import com.sample.project.page.GoogleResultPage;
 import com.sample.project.page.GoogleSearchPage;
 
+/**
+ * Google検索を行うテスト。
+ *
+ * @author kochoru
+ *
+ */
 public class SearchingTest {
 
     @BeforeClass

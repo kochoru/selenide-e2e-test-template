@@ -5,8 +5,15 @@ import org.openqa.selenium.support.How;
 
 import com.codeborne.selenide.ElementsCollection;
 
+/**
+ * Google検索結果画面。
+ *
+ * @author kochoru
+ *
+ */
 public class GoogleResultPage {
 
-    @FindBy(how = How.CSS, using = "#ires li.g")
+    /** 一つ一つの検索結果。 **/
+    @FindBy(how = How.CSS, using = "#ires div.g")
     public ElementsCollection results;
 }
