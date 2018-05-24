@@ -8,3 +8,12 @@ There are test codes only.
 ## Usecase
 
 * if you want to manage e2e test codes outside of project.
+
+## CI Sample
+
+This project corresponds to the following CI services.
+If you want to reference, see each configuration file.
+
+* CircleCI
+* Travis CI
+* Appveyor
